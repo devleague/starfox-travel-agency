@@ -3,7 +3,6 @@ Layout 1
 
 Front-end Website Layout Creation Exercise 1
 
-Work in the directory named after you.  
 You may use any frameworks or libraries of your choosing.  
 The purpose of this exercise is to increase proficiency in web ui layout creation  
 with focus on best practices*, cross-browser compatibility, accuracy, and speed (in this order).  
