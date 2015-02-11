@@ -1,4 +1,4 @@
-Layout 1
+Starfox Galaxies Travel
 ========
 
 Front-end Website Layout Creation Exercise 1
