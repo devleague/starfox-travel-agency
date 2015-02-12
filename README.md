@@ -1,10 +1,8 @@
 ## Starfox Galaxies Travel
-========
 
 ### Objective
 
-Create a responsive layout for the 
-
+Create a responsive webpage for the Starfox Galaxies Travel using the  layouts included for reference. Use the **Foundation** framework as the initial basis for your layout, and **Sass**, **gulp**, and **LiveReload** in your workflow.
 
 ### Requirements
 
