@@ -33,7 +33,7 @@ After you finish setting up your environment, your file structure should look li
 ``` 
 .bowerrc
 .gitignore
-bower.js
+bower.json
 gulpfile.js
 package.json
 /layouts
