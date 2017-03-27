@@ -5,8 +5,8 @@
 Create a responsive webpage for the Starfox Galaxies Travel using the  layouts included for reference.
 
 - No CSS frameworks
-- You may use a css-reset
-- Use CSS's Flex Box to help with layouting out your elements.
+- You may use a CSS Reset
+- Use CSS's Flex Box to help with building the layout for the page
 - You must use SASS (via SCSS)
 - You may use the Gulp build tool to:
   - transpile your SASS into CSS
@@ -39,11 +39,11 @@ Use a blank anchor href for links as placeholders, for example: `<a href="#">Hom
 		1. **Hard Mode**: Use javascript to make the mobile nav hide and show upon clicking the `menu_icon.svg` image in the nav.
 - **Server**
 	- Use **Browser-sync**.
-	- Utilize **gulp** for your task runner (runs the server, gulp, gulp-sass, and browser-sync).
+	- Utilize **gulp** for your task runner (gulp, gulp-sass, and browser-sync which handles serving our code).
 	- Instructions for **Gulp + Sass + Browser-sync** setup is [here](https://gist.github.com/sgnl/2937a3f5767a7f1b765c)
 
 ### File Structure
-After you finish setting up your environment, your file structure should look like this:
+Your file structure should look like this after you start developing:
 
 ```
 /layouts
@@ -72,3 +72,8 @@ package.json
 1. Once you're done with the Medium layout, repeat the step above with the Large layout.
 
 **Commit your code often**. Finished building a section of UI? COMMIT!
+
+## Stretch Goals
+- update your gulp tooling to use `autoprefixer` to handle cross-browser compatibility
+- update the "Hero" to be a carousel slider with at least 3 images
+
