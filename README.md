@@ -2,56 +2,64 @@
 
 ### Objective
 
-Create a responsive webpage for the Starfox Galaxies Travel using the  layouts included for reference. Use the **Foundation** framework as the initial basis for your layout, and **Sass**, **gulp**, and **LiveReload** in your workflow.
+Create a responsive webpage for the Starfox Galaxies Travel using the  layouts included for reference.
+
+- No CSS frameworks
+- You may use a css-reset
+- Use CSS's Flex Box to help with layouting out your elements.
+- You must use SASS (via SCSS)
+- You may use the Gulp build tool to:
+  - transpile your SASS into CSS
+  - run your server
+  - have "live-reload" functionality
+
+### Specifications
+
+**Media Query Break-points**
+- small layout max-width: `600px`
+- medium layout min-wdith `965px` and max-width `1099px`
+- large min-width `1100px` and up
+
+**Note for Large and up break-point: ** Content will no surpass being `1100px` wide but the "white-space" can continue to grow if the user expands their screen-width to a large value.
+
+Use a blank anchor href for links as placeholders, for example: `<a href="#">Home</a>`
 
 ### Requirements
 
-- **Foundation**
- 	- Use **Foundation** as the client-side framework for this layout project. 
-	- Use the Foundation components that are necessary to complete the project. **Do not import all the components.**
-- **Sass**
+- must use **Flex Box**
+- **Sass** (via SCSS)
 	- Use **Sass** for your css preprocessor.
 	- Practice using **inline media queries**
 	- Practice using **nested styles**
-	- Practice using **variables**	
+	- Practice using **variables**
 	- Practice using **mix-ins**
-	- Because the project uses foundation, you do not need to include your own CSS Reset or Clearfix styles.
 - **Layout**
 	- The mobile layout requires a **dropdown nav**.
-		- **Easy Mode**: Use a custom nav for medium and large sizes and a foundation top-bar for small sizes. Hide the nav you don't need at the appropriate size.
-		- **Hard Mode**: Use only the foundation top-bar for the nav. You will have to override the foundation styles with your own custom styles for both small large layouts.
-	- **Media Query Ranges**: The layouts included show small, medium, and large sizes. Set the media ranges for the project **as you see fit**. Use Foundation's conventions for setting media query ranges.
+		1. **Easy Mode**: Build the as seen in the `layouts/Small-wOpenNav.png`.
+		1. **Hard Mode**: Use javascript to make the mobile nav hide and show upon clicking the `menu_icon.svg` image in the nav.
 - **Server**
-	- Use **LiveReload**.
-	- Utilize **gulp** for your task runner (runs the server, gulp, gulp-sass, and livereload).
+	- Use **Browser-sync**.
+	- Utilize **gulp** for your task runner (runs the server, gulp, gulp-sass, and browser-sync).
 	- Instructions for **gulp+sass+livereload** setup are [here](https://gist.github.com/theRemix/b9f10de0bead6a7eaf5a)
 	- Be sure that your bower components and node modules are listed in the **.gitignore** file.
 
-### File Structure 
+### File Structure
 After you finish setting up your environment, your file structure should look like this:
 
-``` 
-.bowerrc
-.gitignore
-bower.json
-gulpfile.js
-package.json
+```
 /layouts
-	/assets
+  /assets *copy images to /public/assets directory*
 /node_modules
 /public
-	/css
-		styles.css
-	/bower_components
-	/images
-	index.html
+  /css
+    styles.css *this file is generated via Gulp*
+  /assets
+  index.html
 /sass
-	styles.scss
-	/partials
-		_foundation.scss
-		_settings.scss
-		(more partials here if needed)
-
+  styles.scss
+.gitignore
+gulpfile.js
+package.json
 ```
 
 ### Process
@@ -67,11 +75,3 @@ package.json
 	- fine-tune your structural components/layout (widths, columns, padding, and margin)
 	- typography
 	- any other elements and details
-	
-
-==========
-
-
-The purpose of this exercise is to increase proficiency in web ui layout creation with focus on best practices*, cross-browser compatibility, accuracy, and speed (in this order).  
-
-*best practices in this exercise is defined as "all common, current, and modern best practices in respect to semantic html5 markup[[1]](http://diveintohtml5.info/semantics.html)[[2]](http://html5doctor.com/lets-talk-about-semantics/)[[3]](http://coding.smashingmagazine.com/2011/11/18/html5-semantics/), [validated html](http://validator.w3.org/), [validated css](http://jigsaw.w3.org/css-validator/), and clean javascript[[1]](http://www.thinkful.com/learn/javascript-best-practices-1/)[[2]](http://code.tutsplus.com/tutorials/24-javascript-best-practices-for-beginners--net-5399)[[3]](http://www.thinkful.com/learn/javascript-best-practices-1/)."
