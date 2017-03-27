@@ -40,8 +40,7 @@ Use a blank anchor href for links as placeholders, for example: `<a href="#">Hom
 - **Server**
 	- Use **Browser-sync**.
 	- Utilize **gulp** for your task runner (runs the server, gulp, gulp-sass, and browser-sync).
-	- Instructions for **gulp+sass+livereload** setup are [here](https://gist.github.com/theRemix/b9f10de0bead6a7eaf5a)
-	- Be sure that your bower components and node modules are listed in the **.gitignore** file.
+	- Instructions for **Gulp + Sass + Browser-sync** setup is [here](https://gist.github.com/sgnl/2937a3f5767a7f1b765c)
 
 ### File Structure
 After you finish setting up your environment, your file structure should look like this:
