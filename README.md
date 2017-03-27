@@ -28,14 +28,14 @@ Use a blank anchor href for links as placeholders, for example: `<a href="#">Hom
 
 - must use **Flex Box**
 - **Sass** (via SCSS)
-	- Use **Sass** for your css preprocessor.
-	- Practice using **inline media queries**
+  - Practice using `Mobile-First` design principle
+	- Practice using **defining media queries**
 	- Practice using **nested styles**
 	- Practice using **variables**
 	- Practice using **mix-ins**
 - **Layout**
 	- The mobile layout requires a **dropdown nav**.
-		1. **Easy Mode**: Build the as seen in the `layouts/Small-wOpenNav.png`.
+		1. **Easy Mode**: Build the as seen in the `layouts/Small-wOpenNav.png` only without click functionality. You can add it later. Work on the other layouts. Do **Hard Mode** when you're done
 		1. **Hard Mode**: Use javascript to make the mobile nav hide and show upon clicking the `menu_icon.svg` image in the nav.
 - **Server**
 	- Use **Browser-sync**.
