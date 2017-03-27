@@ -64,14 +64,12 @@ package.json
 
 ### Process
 
-1. Whiteboard the layout at all sizes, from the most complex layout to the least complex layout and label the structure with appropriate **Foundation** classes, and add in your own classes and divs where appropriate.
-	- mark divs with appropriate **.rows** and **.columns**
-	- mark divs with **hide-for-** and **show-for-** classes
-	- if there are any sibling **.row** items, it is a good idea to wrap them in a div with an your own identifying class.
-2. Write the HTML markup for the layout using the most complex layout as a reference.
-3. Ask an instructor to check your markup.
-4. Style the layout mobile-first, in this (suggested) order:
-	- set base styles (base font size, general font, etc)
-	- fine-tune your structural components/layout (widths, columns, padding, and margin)
-	- typography
-	- any other elements and details
+1. Start with the Mobile layout. Build with only enough HTML elements and CSS to achieve that layout. **There should be no media-query css code at this point.**
+  - set base styles (base font size, general font, etc)
+  - typography
+  - any other elements and details
+  - use semantic naming for your elements. Make them **MEANINGFUL**. example: Navigation items are a list of links so I'd use an `ul` element then add a class called `nav-menu` to it. `ul` element contain `li` elements, so I will then add the class `nav-items` to each `li`.
+1. Once you're done with the mobile layout, move onto the Medium layout. If more elements are needed Modify the HTML as needed. **add your medium media query break-points now, these will override your "Mobile styles" which you defined previously.
+1. Once you're done with the Medium layout, repeat the step above with the Large layout.
+
+**Commit your code often**. Finished building a section of UI? COMMIT!
