@@ -16,7 +16,6 @@ Create a responsive webpage for the Starfox Galaxies Travel using the  layouts i
 ### Specifications
 
 **Media Query Break-points**
-- small layout max-width: `600px`
 - medium layout min-wdith `965px` and max-width `1099px`
 - large min-width `1100px` and up
 
